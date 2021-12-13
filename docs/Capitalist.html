@@ -3,9 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>古鎮天Gugle's Blog</title>
-        
-        <meta name="robots" content="noindex" />
+        <title>Minecraft数据包【大资本家】 - 古鎮天Gugle's Blog</title>
         
         
 
@@ -95,7 +93,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="我的作品.html"><strong aria-hidden="true">1.</strong> 我的作品</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Mozi.html"><strong aria-hidden="true">1.1.</strong> 开黑啦机器人【墨子号】</a></li><li class="chapter-item expanded "><a href="DatapackTools.html"><strong aria-hidden="true">1.2.</strong> Minecraft数据包工具集</a></li><li class="chapter-item expanded "><a href="AnvilCraft.html"><strong aria-hidden="true">1.3.</strong> Minecraft数据包【铁砧工艺】</a></li><li class="chapter-item expanded "><a href="Capitalist.html"><strong aria-hidden="true">1.4.</strong> Minecraft数据包【大资本家】</a></li><li class="chapter-item expanded "><a href="Fixed.html"><strong aria-hidden="true">1.5.</strong> Minecraft模组【Fixed】</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="我的作品.html"><strong aria-hidden="true">1.</strong> 我的作品</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="Mozi.html"><strong aria-hidden="true">1.1.</strong> 开黑啦机器人【墨子号】</a></li><li class="chapter-item expanded "><a href="DatapackTools.html"><strong aria-hidden="true">1.2.</strong> Minecraft数据包工具集</a></li><li class="chapter-item expanded "><a href="AnvilCraft.html"><strong aria-hidden="true">1.3.</strong> Minecraft数据包【铁砧工艺】</a></li><li class="chapter-item expanded "><a href="Capitalist.html" class="active"><strong aria-hidden="true">1.4.</strong> Minecraft数据包【大资本家】</a></li><li class="chapter-item expanded "><a href="Fixed.html"><strong aria-hidden="true">1.5.</strong> Minecraft模组【Fixed】</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -161,123 +159,7 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#我的作品" id="我的作品">我的作品：</a></h1>
-<ul>
-<li><a href="https://github.com/Dubhe-Studio/Mozi">开黑啦机器人【墨子号】</a></li>
-<li><a href="https://github.com/Dubhe-Studio/DatapackTools">Minecraft数据包工具集</a></li>
-<li><a href="https://github.com/Gu-ZT/AnvilCraft">Minecraft数据包【铁砧工艺】</a></li>
-<li><a href="https://github.com/Dubhe-Studio/Capitalist">Minecraft数据包【大资本家】</a></li>
-<li><a href="https://github.com/Dubhe-Studio/Fixed">Minecraft模组【Fixed】</a></li>
-</ul>
-<h1><a class="header" href="#开黑啦机器人墨子号" id="开黑啦机器人墨子号">开黑啦机器人——墨子号</a></h1>
-<p>基于<a href="https://github.com/TWT233/khl.py">khl.py</a>内核</p>
-<h2><a class="header" href="#功能" id="功能">功能：</a></h2>
-<ul>
-<li>快捷配置机器人实例(config.ini)</li>
-<li>便捷的插件管理系统</li>
-<li>快捷使用的图片消息接口</li>
-<li>.....</li>
-</ul>
-<h2><a class="header" href="#敬请期待" id="敬请期待">敬请期待</a></h2>
-<h2><a class="header" href="#功能-1" id="功能-1">功能：</a></h2>
-<ul>
-<li>自动生成物品战利品表和模型（烟火之星）</li>
-<li>自动生成方块战利品表和模型（木桶）以及放置函数</li>
-<li>自动生成可供MCMOD快速导入的IRR格式JSON</li>
-</ul>
-<h2><a class="header" href="#使用" id="使用">使用：</a></h2>
-<ul>
-<li>前往仓库获取文件</li>
-<li>在命令行中使用<code>pip install -r ./requirements.txt</code>来安装所需的环境</li>
-<li>在config文件中填写命名空间，读取的表格名以及自定义模型数据前缀
-<img src="https://bbs.mcmod.cn/data/attachment/forum/202112/11/182611nzvpueltxvk80ssp.png" alt="" /></li>
-<li>然后按指定格式修改表格，如：
-<img src="https://bbs.mcmod.cn/data/attachment/forum/202112/11/182629i2qvmkv85gv2tewm.png" alt="" /></li>
-<li>最后一列数据如为True则跳过改行（功能三暂不读取该列数据进行判断）</li>
-<li>最后使用<code>python Tools.py</code>命令即可完成生成操作</li>
-<li>记得手动将已经进行过操作行的have列改为True</li>
-</ul>
-<h2><a class="header" href="#使用要求" id="使用要求">使用要求：</a></h2>
-<ul>
-<li>物品的贴图需要以其设定的id命名，方块同理，但可以添加以下后缀：_side, _top, _bottom，添加的后缀需要在表格内声明，每一种后缀的添加需要以前一项后缀的存在为条件，如没有_side时将不对_top进行判断而默认其不存在，没有_bottom时则以_top为底面贴图</li>
-</ul>
-<h2><a class="header" href="#提醒" id="提醒">提醒：</a></h2>
-<ul>
-<li>暂时不提供（其实我也不会写）对特殊模型的渲染</li>
-<li><del>可能暂时无法在非Windows系统下使用</del></li>
-</ul>
-<h2><a class="header" href="#高级" id="高级">高级：</a></h2>
-<ul>
-<li>可以通过修改templates目录下的模板文件来达到更高的自定义程度</li>
-</ul>
-<h2><a class="header" href="#使用示例" id="使用示例">使用示例：</a></h2>
-<ul>
-<li>https://github.com/Gu-ZT/AnvilCraft</li>
-</ul>
-<h1><a class="header" href="#铁砧工艺anvilcraft" id="铁砧工艺anvilcraft">铁砧工艺|AnvilCraft</a></h1>
-<h2><a class="header" href="#minecraft原版模组-by-古镇天guglebilibili--xekrbilibili" id="minecraft原版模组-by-古镇天guglebilibili--xekrbilibili">Minecraft原版模组 by 古镇天Gugle@bilibili &amp; XeKr@bilibili</a></h2>
-<p>欢迎来到原版模组《铁砧工艺》的页面！模组是以铁砧为核心的原版生存拓展，主要内容有：
-+ 磁铁：红石充能后将铁砧吸到空中
-+ 粉碎：将岩石粉碎为粉末
-+ 压榨：将方块内的液体压榨出来
-+ 物品压缩：将零散的物品压实
-+ 切割：将紧实的物品分离
-+ 分解：将无用的装备分解为材料
-+ 辊压：将材料压成薄板
-+ 膨发：将材料加水膨发
-+ 晶化：将材料加细雪晶化
-+ 压合：将两个方块压成一个
-+ 方块破坏：破坏切石机上的方块
-+ 准确的投掷器：被砸到的朝下的投掷器在下方方块的正中间投掷出物品，无动量
-+ 更好的发射器：被砸到的发射器可以用水瓶、空瓶、水桶、空桶、细雪桶操作对着的炼药锅，也可以对指定方向放置铁砧</p>
-<h3><a class="header" href="#如何开始" id="如何开始">如何开始</a></h3>
-<ul>
-<li>下载地址：请前往开黑啦服务器或MCMOD下载   下载后复制两份分别作为数据包和资源包。</li>
-<li>安装数据包：
-<ul>
-<li>如果是新的世界，在生成世界时可以在世界预设中点击数据包，将下载好的文件拖拽进打开的界面，并选择至右侧以启用。</li>
-<li>如果是旧的世界，选中世界并点击编辑-&gt;打开世界文件夹-&gt;打开datapacks文件夹，将数据包放入，然后重新进入世界。</li>
-</ul>
-</li>
-<li>安装资源包：
-<ul>
-<li>在主页面点击选项-&gt;资源包，将下载好的文件拖拽进打开的界面，选择至右侧以启用。</li>
-<li>也可以在主页面点击选项-&gt;资源包-&gt;打开资源包文件夹，将下载好的文件放入文件夹内，然后在资源包页面将其选择至右侧以启用。</li>
-</ul>
-</li>
-<li>快速上手：
-<ul>
-<li>下载地址中包含一个配方.xlsx即为可用的配方。</li>
-</ul>
-</li>
-<li>联系我们：
-<ul>
-<li>请前往我们的<a href="https://kaihei.co/AoOkmM">开黑啦服务器（AoOkmM）</a>进行交流和反馈。</li>
-</ul>
-</li>
-<li>介绍视频：
-<ul>
-<li>https://www.bilibili.com/video/BV1sg411T74v</li>
-<li>https://www.bilibili.com/video/BV1Yq4y1z79J</li>
-</ul>
-</li>
-</ul>
-<h3><a class="header" href="#可能不兼容" id="可能不兼容">可能不兼容</a></h3>
-<ul>
-<li>命名空间：<code>anc | anc_me</code></li>
-<li>自定义模型区段：<code>11140000 - 11149999</code></li>
-</ul>
-<h3><a class="header" href="#制作名单" id="制作名单">制作名单</a></h3>
-<ul>
-<li>数据包&amp;资源包：<a href="https://space.bilibili.com/19822751">古镇天Gugle</a></li>
-<li>策划&amp;纹理：<a href="https://space.bilibili.com/5930630">XeKr</a></li>
-<li>特别鸣谢：</li>
-<li><a href="https://www.mcbbs.net/home.php?mod=space&amp;uid=975525">ruhuasiyu</a>数据包作品<a href="https://github.com/ruhuasiyu/CraftingPlusPlus/tree/master/other_datapacks/%E9%93%81%E7%A0%A7%E7%A0%B8%E7%9F%B3%E5%A4%B4">《铁砧砸石头》</a>的基础判断函数</li>
-<li><a href="https://www.mcbbs.net/home.php?mod=space&amp;uid=588878">ph-苯</a>在数据包Debug时所提供的帮助</li>
-<li><a href="https://www.mcbbs.net/home.php?mod=space&amp;uid=2444378">SPGoding</a>所制作的全宇宙最好用的VSCode插件<a href="https://marketplace.visualstudio.com/items?itemName=SPGoding.datapack-language-server">大憨批（Data-pack Helper Plus）</a></li>
-<li>赞助名单：<a href="https://space.bilibili.com/13029727">塔壳take</a></li>
-</ul>
-<h1><a class="header" href="#大资本家" id="大资本家">大资本家</a></h1>
+                        <h1><a class="header" href="#大资本家" id="大资本家">大资本家</a></h1>
 <h2><a class="header" href="#模块" id="模块">模块</a></h2>
 <ul>
 <li>倒转村民</li>
@@ -317,7 +199,15 @@ Capitalist\data\cap\functions\config.mcfunction</p>
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
+                            <a rel="prev" href="AnvilCraft.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
 
+                        
+                            <a rel="next" href="Fixed.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
                         
 
                         <div style="clear: both"></div>
@@ -327,7 +217,15 @@ Capitalist\data\cap\functions\config.mcfunction</p>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
+                    <a rel="prev" href="AnvilCraft.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
 
+                
+                    <a rel="next" href="Fixed.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
                 
             </nav>
 
@@ -360,14 +258,6 @@ Capitalist\data\cap\functions\config.mcfunction</p>
         <!-- Custom JS scripts -->
         
 
-        
-        
-        <script type="text/javascript">
-        window.addEventListener('load', function() {
-            window.setTimeout(window.print, 100);
-        });
-        </script>
-        
         
 
     </body>
