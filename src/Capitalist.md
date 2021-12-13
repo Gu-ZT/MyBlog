@@ -24,7 +24,7 @@ Capitalist\data\cap\functions\config.mcfunction
 
 ![](https://i0.hdslb.com/bfs/article/d27072ee02f6ecbbfe7fc0bc77293eef3c2d3da3.png)
 
-对照表
+```对照表```
 
 ## 倒转村民
 
@@ -32,7 +32,7 @@ Capitalist\data\cap\functions\config.mcfunction
 
 ![](https://i0.hdslb.com/bfs/article/b47fa334361b721fd65e8c1c050d4e4d17213d27.png)
 
-晚餐骨宝典合成方式
+```晚餐骨宝典合成方式```
 
 ## 强制劳动
 
@@ -40,7 +40,7 @@ Capitalist\data\cap\functions\config.mcfunction
 
 ![](https://i0.hdslb.com/bfs/article/96358f30b0cea5092fbb414f4e91b5055dad20a0.png)
 
-金币合成方式
+```金币合成方式```
 
 ## 村民进阶
 
@@ -48,7 +48,7 @@ Capitalist\data\cap\functions\config.mcfunction
 
 ![](https://i0.hdslb.com/bfs/article/65b586802136bde082ef735dbaaae2d09fb5d2b0.png)
 
-进阶宝石合成方式
+```进阶宝石合成方式```
 
 ## 假人遥控
 
@@ -56,6 +56,6 @@ Capitalist\data\cap\functions\config.mcfunction
 
 ![](https://i0.hdslb.com/bfs/article/f75890876b40ab8f6e2bea7d138bc7b2c5200aaa.png)
 
-假人遥控合成方式
+```假人遥控合成方式```
 
 （注：玩家ID现仅支持“Gugle”、“Xe_Kr”、“hsds”） 作者：天枢贪狼Studios https://www.bilibili.com/read/cv13179984 出处：bilibili
