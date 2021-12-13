@@ -11,7 +11,7 @@
 
 ![](https://i0.hdslb.com/bfs/article/3257735a9e215f8c06552a9043bbc7eebbf31578.png)
 
-Capitalist\data\cap\functions\config.mcfunction
+```Capitalist\data\cap\functions\config.mcfunction```
 
 
 ## 使用方法
@@ -58,4 +58,4 @@ Capitalist\data\cap\functions\config.mcfunction
 
 ```假人遥控合成方式```
 
-（注：玩家ID现仅支持“Gugle”、“Xe_Kr”、“hsds”） 作者：天枢贪狼Studios https://www.bilibili.com/read/cv13179984 出处：bilibili
+（注：玩家ID现仅支持“Gugle”、“Xe_Kr”、“hsds”）
