@@ -1,5 +1,6 @@
 # 铁砧工艺|AnvilCraft
 ## Minecraft原版模组 by 古镇天Gugle@bilibili & XeKr@bilibili
+![](https://i0.hdslb.com/bfs/article/233577800b19376b30b42b2fdcc34b561beac247.png)
 
 欢迎来到原版模组《铁砧工艺》的页面！模组是以铁砧为核心的原版生存拓展，主要内容有：
 + 磁铁：红石充能后将铁砧吸到空中
